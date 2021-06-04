@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color: #7B53C1;
+    padding: 0.4rem 1.25rem;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.box:hover{
+    background-color: #644796;
+}
+.box .profilePhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    
+}
+.box .profilePhoto .photo{
+    width: 48px;
+    height: 48px;
+    margin: 0rem 1rem;
+    border-radius: 100%;
+}
+
+.box .nameAndLastMessage{
+    flex-grow: 3;
+}
+.box .nameAndLastMessage p{
+    font-size: 12px;
+    width: 180px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+}
+.box .nameAndLastMessage h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box .nameAndLastMessage .nameandbadge{
+    display: flex;
+}
+
+.box .nameAndLastMessage .nameandbadge .badge{
+    background-color: #A57661;
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.box .time{
+    flex-grow: 1;
+    font-size: 14px;
+    color: lightgray;
+}

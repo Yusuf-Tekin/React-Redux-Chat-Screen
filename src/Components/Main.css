@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.message-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 625px;
+    width: 65%;
+    height: 500px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.message-app .left{
+    width: 40%;
+    height: 500px;
+    background-color: #7B53C1;
+    transition: 0.4s;
+}
+.message-app .right{
+    width: 60%;
+    height: 500px;
+    transition: 0.8s;
+
+}

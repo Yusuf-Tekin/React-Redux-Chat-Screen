@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.message-box{
+    width: 100%;
+}
+.message-box .header{
+    font-size: 24px;
+    color: #dde1e6;
+    background-color: #644796;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    border-bottom: 1px solid #dde1e6;
+}
+.message-box .header .icon{
+    position: absolute;
+}
+.message-box .header .condition-block #iconL{
+    top: 18px;
+    left: 10px;
+}
+.message-box .header #iconR{
+    top: 18px;
+    right: 10px;
+    cursor: pointer;
+}
+.message-box .header .condition-block #iconL:hover{
+    color: lightgray;
+}
+.message-box .header #iconR:hover{
+    color: lightgray;
+}
+.message-box .header .condition-block{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.message-box .header .condition-block .title{
+    text-align: center;
+}
+
+.message-box .message-boxes{
+    min-height: 442px;
+    overflow: auto;
+    max-height: 442px;
+
+
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.single-message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.single-message .profile-photo img{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.single-message .message-text p{
+    font-size: 12px;
+    opacity: 0.7;
+    padding-left: 5px;
+}

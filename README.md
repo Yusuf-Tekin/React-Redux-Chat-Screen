@@ -1,6 +1,6 @@
 
-![alt text](https://github.com/Yusuf-Tekin/React-Redux-Chat-Screen//Screenshot_1.jpg?raw=true)
-![alt text](https://github.com/Yusuf-Tekin/React-Redux-Chat-Screen//Screenshot_2.jpg?raw=true)
+![alt text](https://github.com/Yusuf-Tekin/React-Redux-Chat-Screen/blob/main/Screenshot_1.png)
+![alt text](https://github.com/Yusuf-Tekin/React-Redux-Chat-Screen/blob/main/Screenshot_2.png)
 
 
 # Getting Started with Create React App
